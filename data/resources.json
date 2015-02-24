@@ -1,0 +1,12 @@
+{
+	"resources": [
+		{
+			"title": "First Resource",
+			"url": "http://www.google.com"
+		},
+		{
+			"title": "Second Resource",
+			"url": "http://www.yahoo.com"
+		}
+	]
+}
