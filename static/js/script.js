@@ -115,7 +115,7 @@ var DesignRoadmapSvg = React.createClass({
             text: "immerse",
             d:"M165.5,62.2c-19-18.8-43.7-28.2-68.4-28.1L97,101.2c16.6,0,30.1,13.5,30.1,30.1 c0,5.5-1.5,10.6-4,15l58.2,33.5C202.8,142.5,197.6,94,165.5,62.2z",
             position: {
-              x: 125,
+              x: 128,
               y: 110
             }
 
@@ -243,7 +243,7 @@ var DesignRoadmapSvg = React.createClass({
             text: "organize",
             d: "M587.8,124c3.7-12.1,15-20.9,28.3-20.9l0.3-68.9c-43,0-79.4,28.5-91.5,67.8L587.8,124z",
             position: {
-              x: 545,
+              x: 548,
               y: 85
             }
           },
@@ -261,7 +261,7 @@ var DesignRoadmapSvg = React.createClass({
             text: "fund",
             d: "M676.3,206.1c22-17.7,36-44.9,36-75.4c0-10.7-1.7-21-4.9-30.6l-63.9,21.1c1.5,3.5,2.3,7.4,2.3,11.5 c0,10-5,18.8-12.5,24.2L676.3,206.1z",
             position: {
-              x: 655,
+              x: 658,
               y: 155
             }
           },
@@ -384,7 +384,7 @@ var Modal = React.createClass({
             <h2>{this.props.title}</h2>
             <a
               className="close-button"
-              onClick={this.props.onRequestClose}>x</a>
+              onClick={this.props.onRequestClose}>╳</a>
           </div>
           <div className="inner">
             <ResourceList resources={this.props.resources} />
