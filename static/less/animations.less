@@ -1,0 +1,79 @@
+@import 'base';
+
+.shrink-0 {
+	height: 100%;
+}
+.shrink-100 {
+	height: @headerHeight;
+}
+
+.slide-0 {
+	width: 0;
+}
+.slide-100 {
+	width: 30rem
+}
+
+.slide-up-0 {
+	bottom: -4rem;
+}
+.slide-up-100 {
+	bottom: 0;
+}
+
+@-webkit-keyframes shrink {
+    0% { .shrink-0(); }
+    75% { .shrink-0(); }
+    100% { .shrink-100(); }
+}
+@keyframes shrink {
+    0% { .shrink-0(); }
+    75% { .shrink-0(); }
+    100% { .shrink-100(); }
+}
+
+@-webkit-keyframes slide-up {
+    0% { .slide-up-0(); }
+    75% { .slide-up-0(); }
+    100% { .slide-up-100(); }
+}
+@keyframes slide-up {
+    0% { .slide-up-0(); }
+    75% { .slide-up-0(); }
+    100% { .slide-up-100(); }
+}
+
+@-webkit-keyframes slide {
+    0% { .slide-0(); }
+    25% { .slide-0(); }
+    62.5% { .slide-100(); }
+    100% { .slide-100(); }
+}
+@keyframes slide {
+    0% { .slide-0(); }
+    25% { .slide-0(); }
+    62.5% { .slide-100(); }
+    100% { .slide-100(); }
+}
+
+.shrink {
+	.animation(shrink, 4s, 0s, ease);
+}
+.slide {
+	.animation(slide, 4s, 0s, ease);
+}
+.slide-up {
+	.animation(slide-up, 4s, 0s, ease);
+}
+
+.animation(@name, @duration, @delay: 0s, @timing: linear) {
+	-webkit-animation-name: @name;
+			animation-name: @name;
+	-webkit-animation-duration: @duration;
+			animation-duration: @duration;
+	-webkit-animation-delay: @delay;
+			animation-delay: @delay;
+	-webkit-animation-timing-function: @timing;
+			animation-timing-function: @timing;
+}
+

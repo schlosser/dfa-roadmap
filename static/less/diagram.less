@@ -1,0 +1,109 @@
+@import 'base';
+
+.circle {
+    &.understand {
+        .identify {
+            path {
+                fill:@gray1;
+            }
+            &:hover path { fill: darken(@gray1, 10%); }
+        }
+        .immerse {
+            path {
+                fill:@gray2;
+            }
+            &:hover path { fill: darken(@gray2, 10%); }
+        }
+        .reframe {
+            path {
+                fill:@gray3;
+            }
+            &:hover path { fill: darken(@gray3, 10%); }
+        }
+    }
+    &.create {
+        .ideate {
+            path {
+                fill:@blue1;
+            }
+            &:hover path { fill: darken(@blue1, 10%); }
+        }
+        .build {
+            path {
+                fill:@blue2;
+            }
+            &:hover path { fill: darken(@blue2, 10%); }
+        }
+        .test {
+            path {
+                fill:@blue3;
+            }
+            &:hover path { fill: darken(@blue3, 10%); }
+        }
+        .evaluate {
+            path {
+                fill:@blue4;
+            }
+            &:hover path { fill: darken(@blue4, 10%); }
+        }
+    }
+    &.implement {
+        .organize {
+            path {
+                fill:@green1;
+            }
+            &:hover path { fill: darken(@green1, 10%); }
+        }
+        .brand {
+            path {
+                fill:@green2;
+            }
+            &:hover path { fill: darken(@green2, 10%); }
+        }
+        .fund {
+            path {
+                fill:@green3;
+            }
+            &:hover path { fill: darken(@green3, 10%); }
+        }
+        .test {
+            path {
+                fill:@green4;
+            }
+            &:hover path { fill: darken(@green4, 10%); }
+        }
+        .evaluate {
+            path {
+                fill:@green5;
+            }
+            &:hover path { fill: darken(@green5, 10%); }
+        }
+    }
+}
+
+
+.checkpoint {
+    .desirability {
+        fill: @gray2;
+        &:hover { fill: darken(@gray2, 10%); }
+    }
+    .feasibility {
+        fill: @blue2;
+        &:hover { fill: darken(@blue2, 10%); }
+    }
+    .viability {
+        fill: @green3;
+        &:hover { fill: darken(@green3, 10%); }
+    }
+}
+
+.label {
+    font-family: @sans;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+.segment:hover {
+    cursor: pointer;
+}

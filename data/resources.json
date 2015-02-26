@@ -1,12 +1,436 @@
 {
-	"resources": [
-		{
-			"title": "First Resource",
-			"url": "http://www.google.com"
-		},
-		{
-			"title": "Second Resource",
-			"url": "http://www.yahoo.com"
-		}
-	]
+	"understand-identify": {
+		"resources": [
+			{
+				"title": "Identifying a Challenge (IDEO, 45)",
+				"url": "/static/pdf/IDEO Design Toolkit.pdf#page=56"
+			},
+			{
+				"title": "Checking Your Challenge (DFA, 19)",
+				"url": "/static/pdf/DFA Process Guide.pdf#page=26"
+			},
+			{
+				"title": "Recognize Existing Knowledge (IDEO, 50)",
+				"url": "/static/pdf/IDEO Design Toolkit.pdf#page=61"
+			},
+			{
+				"title": "Sharing Current Knowledge (DFA, 22)",
+				"url": "/static/pdf/DFA Process Guide.pdf#page=29"
+			},
+			{
+				"title": "How Can We Statements (DFA 24)",
+				"url": "/static/pdf/DFA Process Guide.pdf#page=31"
+			},
+			{
+				"title": "Finding People to Speak With (IDEO, 51)",
+				"url": "/static/pdf/IDEO Design Toolkit.pdf#page=62"
+			},
+			{
+				"title": "Forming Community Partnerships (DFA, 27)",
+				"url": "/static/pdf/DFA Process Guide.pdf#page=34"
+			}
+		]
+	},
+	"understand-immerse": {
+		"resources": [
+		    {
+		    	"title": "Secondary Research (DFA, 35)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=42"
+		    },
+		    {
+		    	"title": "User Research (DFA, 38)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=45"
+		    },
+		    {
+		    	"title": "Identity, Power, and Politics (IDEO, 159)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=170"
+		    },
+		    {
+		    	"title": "Observation (IDEO,160)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=171"
+		    },
+		    {
+		    	"title": "Conversation (IDEO, 161)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=172"
+		    },
+		    {
+		    	"title": "Research Methods",
+		    	"items": [
+		    		{
+		    			"title": "Individual Interview (IDEO, 53)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=64"
+		    		},
+		    		{
+		    			"title": "Group Interview (IDEO, 55)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=66"
+		    		},
+		    		{
+		    			"title": "Context Immersion (IDEO, 57)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=68"
+		    		},
+		    		{
+		    			"title": "Self Documentation (IDEO, 61)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=72"
+		    		},
+		    		{
+		    			"title": "Community Driven Discovery (IDEO, 64)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=75"
+		    		},
+		    		{
+		    			"title": "Expert Interview (IDEO, 66)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=77"
+		    		},
+		    		{
+		    			"title": "Seeking Inspiration in New Places (IDEO, 68)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=79"
+		    		}
+		    	]
+		    },
+		    {
+		    	"title": "Interview Approaches",
+		    	"items": [
+		    		{
+		    			"title": "Sacrificial Concepts (IDEO, 71)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=82"
+		    		},
+		    		{
+		    			"title": "Interview Techniques (IDEO, 75)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=86"
+		    		},
+		    		{
+		    			"title": "Community Characters (IDEO, 165)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=176"
+		    		},
+		    		{
+		    			"title": "Resource Flow (IDEO, 167)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=178"
+		    		},
+		    		{
+		    			"title": "Factors and Forces (IDEO, 171)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=182"
+		    		},
+		    		{
+		    			"title": "Journey of an Offering (IDEO, 173)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=184"
+		    		},
+		    		{
+		    			"title": "Aspirations Exercise (IDEO, 177)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=188"
+		    		},
+		    		{
+		    			"title": "Highlights (IDEO, 187)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=198"
+		    		}
+		    	]
+		    },
+		    {
+		    	"title": "Develop Mindset",
+		    	"items": [
+		    		{
+		    			"title": "Beginners Mind (IDEO, 77)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=88"
+		    		},
+		    		{
+		    			"title": "Observe and Interpret (IDEO, 79)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=90"
+		    		}
+		    	]
+		    },
+		    {
+		    	"title": "Fostering Empathy (DFA, 43)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=50"
+		    },
+		    {
+		    	"title": "From Findings to Insights (DFA, 46)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=53"
+		    },
+		    {
+		    	"title": "Recruiting Plan (IDEO, 157)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=168"
+		    },
+		    {
+		    	"title": "Research Schedule (IDEO, 158)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=169"
+		    },
+		    {
+		    	"title": "Field Checklist (IDEO, 156)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=167"
+		    }
+		]
+	},
+	"understand-reframe": {
+		"resources": [
+		    {
+		    	"title": "Iterating How Can We Statements (DFA, 50)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=57"
+		    },
+		    {
+		    	"title": "Foundations of the Reframe (DFA, 57)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=64"
+		    },
+		    {
+		    	"title": "From Insights to Design Goals (DFA, 58)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=65"
+		    },
+		    {
+		    	"title": "Defining Measures of Success (DFA, 59)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=66"
+		    },
+		    {
+		    	"title": "Preparing for Ideation (DFA, 61)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=68"
+		    }
+		]
+	},
+	"create-ideate": {
+		"resources": [
+		    {
+		    	"title": "Develop Approach",
+		    	"items": [
+		    		{
+		    			"title": "Participatory Co-Design (IDEO, 84)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=95"
+		    		},
+		    		{
+		    			"title": "Empathic Design (IDEO, 89)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=100"
+		    		},
+		    		{
+		    			"title": "Share Stories (IDEO, 92)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=103"
+		    		}
+		    	]
+		    },
+		    {
+		    	"title": "Identify Patterns",
+		    	"items": [
+		    		{
+		    			"title": "Extract Key Insights (IDEO, 94)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=105"
+		    		},
+		    		{
+		    			"title": "Finding Themes (IDEO, 98)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=109"
+		    		},
+		    		{
+		    			"title": "Create Frameworks (IDEO, 100)",
+		    			"url": "/static/pdf/IDEO Design Toolkit.pdf#page=111"
+		    		}
+		    	]
+		    },
+		    {
+		    	"title": "Create Opportunity Areas (IDEO, 102)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=113"
+		    },
+		    {
+		    	"title": "Brainstorm New Solutions (IDEO, 104)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=115"
+		    },
+		    {
+		    	"title": "Generating Ideas (DFA, 73)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=80"
+		    },
+		    {
+		    	"title": "Refining Ideas into Concepts (DFA, 76)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=83"
+		    },
+		    {
+		    	"title": "Moving Concepts Forward (DFA, 79)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=86"
+		    }
+		]
+	},
+	"create-build": {
+		"resources": [
+		    {
+		    	"title": "Foundations of Build (DFA, 87)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=94"
+		    },
+		    {
+		    	"title": "Make Ideas Real (IDEO, 106)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=117"
+		    },
+		    {
+		    	"title": "Pipeline of Solutions (IDEO, 134)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=145"
+		    },
+		    {
+		    	"title": "Implementation Pipeline (IDEO, 138)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=149"
+		    },
+		    {
+		    	"title": "Principles of Prototyping (DFA, 89)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=96"
+		    },
+		    {
+		    	"title": "Digital and Service Based Prototyping (DFA, 93)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=100"
+		    }
+		]
+	},
+	"create-test": {
+		"resources": [
+		    {
+		    	"title": "Mini Pilots and Iteration (IDEO, 140)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=151"
+		    },
+		    {
+		    	"title": "Create Learning Plan (IDEO, 144)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=155"
+		    },
+		    {
+		    	"title": "Being a Good Scientist (DFA, 105)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=112"
+		    },
+		    {
+		    	"title": "Performance Testing (DFA, 109)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=116"
+		    },
+		    {
+		    	"title": "User Testing (DFA, 122)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=129"
+		    }
+		]
+	},
+	"create-evaluate": {
+		"resources": [
+		    {
+		    	"title": "Gather Feedback (IDEO, 108)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=119"
+		    },
+		    {
+		    	"title": "Applying Feedback (DFA, 126)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=133"
+		    },
+		    {
+		    	"title": "Track Indicators (IDEO, 146)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=157"
+		    },
+		    {
+		    	"title": "Evaluate Outcomes (IDEO, 148)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=159"
+		    },
+		    {
+		    	"title": "Diving Deeper Into Design (DFA, 95)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=102"
+		    }
+		]
+	},
+	"implement-organize": {
+		"resources": [
+		    {
+		    	"title": "Identify Capabilities (IDEO, 131)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=142"
+		    },
+		    {
+		    	"title": "Foundations of a Plan (DFA, 127)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=134"
+		    },
+		    {
+		    	"title": "Implementation Approaches (DFA, 128)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=135"
+		    },
+		    {
+		    	"title": "Implementation Models (DFA, 130)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=137"
+		    },
+		    {
+		    	"title": "Implementation Timelines (DFA, 135)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=142"
+		    },
+		    {
+		    	"title": "Develop Strategic Network (DFA, 145)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=152"
+		    },
+		    {
+		    	"title": "Business Model Canvas",
+		    	"items": [
+		    		{
+		    			"title": "Customer Segments (BMG, 20)",
+		    			"url": "/static/pdf/Business Model Generation.pdf#page=20"
+		    		},
+		    		{
+		    			"title": "Value Propositions (BMG, 22)",
+		    			"url": "/static/pdf/Business Model Generation.pdf#page=22"
+		    		},
+		    		{
+		    			"title": "Channels (BMG, 26)",
+		    			"url": "/static/pdf/Business Model Generation.pdf#page=26"
+		    		},
+		    		{
+		    			"title": "Customer Relationships (BMG, 28)",
+		    			"url": "/static/pdf/Business Model Generation.pdf#page=28"
+		    		},
+		    		{
+		    			"title": "Revenue Streams (BMG, 30)",
+		    			"url": "/static/pdf/Business Model Generation.pdf#page=30"
+		    		},
+		    		{
+		    			"title": "Key Resources (BMG, 34)",
+		    			"url": "/static/pdf/Business Model Generation.pdf#page=34"
+		    		},
+		    		{
+		    			"title": "Key Activities (BMG, 36)",
+		    			"url": "/static/pdf/Business Model Generation.pdf#page=36"
+		    		},
+		    		{
+		    			"title": "Key Partnerships (BMG, 38)",
+		    			"url": "/static/pdf/Business Model Generation.pdf#page=38"
+		    		},
+		    		{
+		    			"title": "Cost Structure (BMG, 40)",
+		    			"url": "/static/pdf/Business Model Generation.pdf#page=40"
+		    		}
+		    	]
+		    }
+		]
+	},
+	"implement-brand": {
+		"resources": [
+		    {
+		    	"title": "Telling Your Story (DFA, 147)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=154"
+		    }
+		]
+	},
+	"implement-fund": {
+		"resources": [
+		    {
+		    	"title": "Getting Initial Funding",
+		    	"url": "#"
+		    },
+		    {
+		    	"title": "Develop a Sustainable Revenue Model (IDEO, 126)",
+		    	"url": "/static/pdf/IDEO Design Toolkit.pdf#page=137"
+		    }
+		]
+	},
+	"implement-test": {
+		"resources": [
+		    {
+		    	"title": "Proving Your Product (DFA, 141)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=148"
+		    },
+		    {
+		    	"title": "Testing Models and Prototypes (DFA, 153)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=160"
+		    }
+		]
+	},
+	"implement-evaluate": {
+		"resources": [
+		    {
+		    	"title": "Sustaining Your Product (DFA, 161)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=168"
+		    },
+		    {
+		    	"title": "Demonstrate Your Impact (DFA, 162)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=169"
+		    },
+		    {
+		    	"title": "Inspiration Through Impact (DFA, 164)",
+		    	"url": "/static/pdf/DFA Process Guide.pdf#page=171"
+		    }
+		]
+	}
 }

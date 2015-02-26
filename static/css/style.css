@@ -1,15 +1,17 @@
+.border-box {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 body,
 html {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 300;
   font-size: 15px;
-}
-p {
-  font-size: 1.5rem;
-  line-height: 2rem;
+  position: relative;
 }
 h1 {
   font-weight: 300;
@@ -41,7 +43,434 @@ ul {
   padding: 0;
   list-style: none;
 }
-.resource {
-  border: 1px solid black;
-  margin: 2rem;
+a {
+  color: #78d3e3;
+  text-decoration: none;
+  font-weight: 400;
+}
+a:hover {
+  color: #4ec5da;
+  text-decoration: none;
+}
+.circle.understand .identify path {
+  fill: #e0e0e0;
+}
+.circle.understand .identify:hover path {
+  fill: #c7c7c7;
+}
+.circle.understand .immerse path {
+  fill: #b4b4b4;
+}
+.circle.understand .immerse:hover path {
+  fill: #9b9b9b;
+}
+.circle.understand .reframe path {
+  fill: #8a8a8a;
+}
+.circle.understand .reframe:hover path {
+  fill: #717171;
+}
+.circle.create .ideate path {
+  fill: #f0f9fb;
+}
+.circle.create .ideate:hover path {
+  fill: #c8e9f0;
+}
+.circle.create .build path {
+  fill: #d9eef5;
+}
+.circle.create .build:hover path {
+  fill: #b1dcea;
+}
+.circle.create .test path {
+  fill: #b8dfec;
+}
+.circle.create .test:hover path {
+  fill: #90cde1;
+}
+.circle.create .evaluate path {
+  fill: #78d3e3;
+}
+.circle.create .evaluate:hover path {
+  fill: #4ec5da;
+}
+.circle.implement .organize path {
+  fill: #e2f3d8;
+}
+.circle.implement .organize:hover path {
+  fill: #c5e7b1;
+}
+.circle.implement .brand path {
+  fill: #c9e6b6;
+}
+.circle.implement .brand:hover path {
+  fill: #add990;
+}
+.circle.implement .fund path {
+  fill: #abd98e;
+}
+.circle.implement .fund:hover path {
+  fill: #8fcc68;
+}
+.circle.implement .test path {
+  fill: #8fcb69;
+}
+.circle.implement .test:hover path {
+  fill: #73be43;
+}
+.circle.implement .evaluate path {
+  fill: #73bf44;
+}
+.circle.implement .evaluate:hover path {
+  fill: #5c9b35;
+}
+.checkpoint .desirability {
+  fill: #b4b4b4;
+}
+.checkpoint .desirability:hover {
+  fill: #9b9b9b;
+}
+.checkpoint .feasibility {
+  fill: #d9eef5;
+}
+.checkpoint .feasibility:hover {
+  fill: #b1dcea;
+}
+.checkpoint .viability {
+  fill: #abd98e;
+}
+.checkpoint .viability:hover {
+  fill: #8fcc68;
+}
+.label {
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+.segment:hover {
+  cursor: pointer;
+}
+.shrink-0 {
+  height: 100%;
+}
+.shrink-100 {
+  height: 8rem;
+}
+.slide-0 {
+  width: 0;
+}
+.slide-100 {
+  width: 30rem;
+}
+.slide-up-0 {
+  bottom: -4rem;
+}
+.slide-up-100 {
+  bottom: 0;
+}
+@-webkit-keyframes shrink {
+  0% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 8rem;
+  }
+}
+@keyframes shrink {
+  0% {
+    height: 100%;
+  }
+  75% {
+    height: 100%;
+  }
+  100% {
+    height: 8rem;
+  }
+}
+@-webkit-keyframes slide-up {
+  0% {
+    bottom: -4rem;
+  }
+  75% {
+    bottom: -4rem;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+@keyframes slide-up {
+  0% {
+    bottom: -4rem;
+  }
+  75% {
+    bottom: -4rem;
+  }
+  100% {
+    bottom: 0;
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 0;
+  }
+  62.5% {
+    width: 30rem;
+  }
+  100% {
+    width: 30rem;
+  }
+}
+@keyframes slide {
+  0% {
+    width: 0;
+  }
+  25% {
+    width: 0;
+  }
+  62.5% {
+    width: 30rem;
+  }
+  100% {
+    width: 30rem;
+  }
+}
+.shrink {
+  -webkit-animation-name: shrink;
+  animation-name: shrink;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+.slide {
+  -webkit-animation-name: slide;
+  animation-name: slide;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+.slide-up {
+  -webkit-animation-name: slide-up;
+  animation-name: slide-up;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+.resource-list {
+  margin-left: 2rem;
+  list-style: lower-alpha !important;
+}
+.resource-list .resource-list {
+  list-style: lower-roman !important;
+}
+.resource-list li {
+  padding: 0 0 0.25rem;
+}
+.modal .modal-content {
+  position: fixed;
+  top: -100rem;
+  z-index: 101;
+  background-color: #ffffff;
+  border-radius: 0.1rem;
+  min-width: 20rem;
+  max-width: 40rem;
+  left: 50%;
+  -webkit-transition: 0.3s ease all;
+  -moz-transition: 0.3s ease all;
+  -o-transition: 0.3s ease all;
+  transition: 0.3s ease all;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.modal .modal-content .title {
+  padding: 0 1rem;
+}
+.modal .modal-content .title h2 {
+  text-transform: uppercase;
+}
+.modal .modal-content .inner {
+  padding: 1rem;
+}
+.modal .modal-content .close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1rem;
+  height: 1rem;
+  line-height: 1rem;
+  color: #000000;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+.modal .modal-overlay {
+  -webkit-transition: 0.3s ease background-color;
+  -moz-transition: 0.3s ease background-color;
+  -o-transition: 0.3s ease background-color;
+  transition: 0.3s ease background-color;
+  background-color: rgba(0, 0, 0, 0);
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+.modal.open .modal-content {
+  top: 2rem;
+}
+.modal.open .modal-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: block;
+}
+.modal.understand-identify .title {
+  background-color: #e0e0e0;
+}
+.modal.understand-immerse .title {
+  background-color: #b4b4b4;
+}
+.modal.understand-reframe .title {
+  background-color: #8a8a8a;
+}
+.modal.create-ideate .title {
+  background-color: #f0f9fb;
+}
+.modal.create-build .title {
+  background-color: #d9eef5;
+}
+.modal.create-test .title {
+  background-color: #b8dfec;
+}
+.modal.create-evaluate .title {
+  background-color: #78d3e3;
+}
+.modal.implement-organize .title {
+  background-color: #e2f3d8;
+}
+.modal.implement-brand .title {
+  background-color: #c9e6b6;
+}
+.modal.implement-fund .title {
+  background-color: #abd98e;
+}
+.modal.implement-test .title {
+  background-color: #8fcb69;
+}
+.modal.implement-evaluate .title {
+  background-color: #73bf44;
+}
+.content {
+  max-width: 80rem;
+  margin: 0 auto;
+  width: 95%;
+  position: relative;
+}
+#container {
+  position: absolute;
+  top: 9rem;
+  bottom: 5rem;
+  left: 0;
+  right: 0;
+}
+#container svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: 3%;
+  max-width: 89%;
+  max-height: 100%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.header-spacer {
+  height: 8rem;
+}
+.header {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  min-height: 8rem;
+  padding: 1rem;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  text-align: center;
+}
+.header .logo {
+  width: 100%;
+  height: 6rem;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.header img {
+  height: 6rem;
+  vertical-align: middle;
+  display: inline;
+}
+.header .title {
+  text-transform: uppercase;
+  color: #acafb6;
+  height: 4rem;
+  font-size: 4rem;
+  line-height: 4rem;
+  display: inline;
+  vertical-align: middle;
+  white-space: nowrap;
+  float: right;
+}
+.header .title-wrapper {
+  overflow: hidden;
+  width: 30rem;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+.footer-spacer {
+  height: 4rem;
+}
+footer {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  height: 4rem;
+  padding: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(250, 250, 250, 0.8);
+}
+footer p {
+  margin: 0;
+  display: inline-block;
+}
+footer p.right {
+  float: right;
 }

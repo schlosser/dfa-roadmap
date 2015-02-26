@@ -1,0 +1,21 @@
+.border-box {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.transform(@rule) {
+	transform: @rule;
+	-webkit-transform: @rule;
+	-moz-transform: @rule;
+	-o-transform: @rule;
+}
+
+.full-transition(@rule) {
+	-webkit-transition: @rule;
+	-moz-transition: @rule;
+	-o-transition: @rule;
+	transition: @rule;
+}
+
+.transition(@speed) {
+	.full-transition(@speed ease all);
+}

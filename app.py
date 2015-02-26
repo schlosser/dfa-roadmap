@@ -11,10 +11,11 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/resources')
-def resources():
+@app.route('/resources/<category>')
+def resources(category):
     global resources
-    return jsonify(resources)
+    print resources.get(category)
+    return jsonify(resources.get(category))
 
 
 def get_resources():
