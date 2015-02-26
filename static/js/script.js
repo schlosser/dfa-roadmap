@@ -319,7 +319,11 @@ var Resource = React.createClass({
     if (this.props.url) {
       return (
         <li className="resource">
-          <h4><a href={ this.props.url }>{ this.props.title }</a></h4>
+          <h4>
+            <a
+              target="_blank"
+              href={ this.props.url }>{ this.props.title }</a>
+          </h4>
         </li>
       );
     } else {
