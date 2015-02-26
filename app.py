@@ -1,8 +1,11 @@
 from flask import Flask, render_template, jsonify
+from sys import argv
 import json
 
 app = Flask(__name__)
-app.config['DEBUG'] = True
+
+if len(argv) == 2 and argv[1] == 'debug':
+	app.config['DEBUG'] = True
 resources = {}
 
 
