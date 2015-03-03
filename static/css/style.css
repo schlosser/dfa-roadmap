@@ -127,20 +127,11 @@ a:hover {
 .checkpoint .desirability {
   fill: #b4b4b4;
 }
-.checkpoint .desirability:hover {
-  fill: #9b9b9b;
-}
 .checkpoint .feasibility {
   fill: #d9eef5;
 }
-.checkpoint .feasibility:hover {
-  fill: #b1dcea;
-}
 .checkpoint .viability {
   fill: #abd98e;
-}
-.checkpoint .viability:hover {
-  fill: #8fcc68;
 }
 .label {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, sans-serif;
@@ -508,6 +499,7 @@ footer {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   height: 4rem;
+  text-align: center;
   padding: 1.5rem;
   position: absolute;
   bottom: 0;
